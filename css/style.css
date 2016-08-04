@@ -1,0 +1,170 @@
+a{
+    color: rgb(62, 121, 203);
+}
+body{
+    font-family: Serif;
+    font-size: 16px;
+}
+.content{
+    padding: 0 14px;
+}
+/*Header*/
+.head{
+    background-color: rgb(51, 51, 51);
+    position: relative;
+}
+.head .logo{
+    float: left;
+    max-width: 5em;
+    margin: 1em;
+}
+.head ul{
+    list-style-type: none;
+    text-align: right;
+    margin-right: 2em;
+    padding: 3em 0 4em 0;
+}
+.head ul li{
+    display: inline;
+    margin:4em 0 4em 1em;
+}
+.head ul li a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+/*Latest Episodes*/
+.latest-episodes{
+    background-color: rgb(238, 238, 238);
+    border-bottom: 2px solid rgb(187, 187,187);
+    display: block;
+    height: 19.5em;
+}
+.latest-episodes article:first-child{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.latest-episodes h1{
+    display: inline;
+    font-size: 1.3em;
+}
+.latest-episodes .more{
+    display: inline;
+    font-size: .8em;
+    font-weight: bold;
+    margin-left: .5em;
+    text-decoration: none;
+}
+.latest-episodes .more:after{
+    content: '⟶';
+}
+.latest-episodes ul li{
+    display: inline-block;
+    margin-left: 1.25em;
+    width: 13em;
+}
+.latest-episodes ul li:first-child{
+    margin:0;
+}
+.latest-episodes ul li a{
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+.latest-episodes ul li img{
+    max-width: 100%;
+    border: 2px solid white;
+    box-shadow: 0 0 1px 1px rgb(206, 206, 206);
+}
+/*Principal*/
+.principal{
+    margin-top: 2em;
+}
+.principal .name{
+    display: block;
+    font-size: .9em;
+    text-decoration: none;
+    text-align: center;
+}
+.principal .list{
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.principal .list li{
+    display: inline-block;
+    margin-left: 1.8em;
+    width: 6em;
+    vertical-align: top;
+}
+.principal .list li:first-child{
+    margin: 0;
+}
+.principal .serie{
+    border: 2px solid white;
+    box-shadow: 0 0 1px 1px rgb(206, 206, 206);
+    max-width: 100%;
+}
+/*Aside*/
+.sidebar{
+    margin-top: 1em;
+}
+.sidebar .a-link{
+    display: inline-block;
+    font-size: .8em;
+    text-decoration: none;
+    padding: 0 0 .5em 1em;
+}
+.sidebar img{
+    float: left;
+    max-width: .85em;
+}
+.sidebar h1{
+    border-bottom: 1px solid rgb(221,221,221);
+    color: rgb(85,85,85);
+    position: relative;
+}
+.sidebar p{
+    border-top: 1px solid rgb(221,221,221);
+    font-size: .9em;
+    line-height: 1.4em;
+    padding-top: 1em;
+    text-align: left;
+}
+.sidebar p a{
+    text-decoration: none;
+}
+.sidebar ul{
+    list-style-type: none;
+    margin: 1em 0 1em 0;
+}
+/*Footer*/
+footer{
+    background-color: rgb(88, 88, 88);
+    height: 14em;
+}
+footer a{
+    color: lightgray;
+    text-decoration: none;
+}
+footer ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 1em 0;
+}
+footer ul li{
+    display: inline;
+    font-size: .9em;
+    margin-left: 1em;
+}
+.first{
+    color: white;
+    line-height: 2em;
+    padding: 2em 0 1em 1em;
+}
+.last{
+    color: gray;
+    font-size: .8em;
+    padding-top: 1em ;
+    text-align: center;
+}
